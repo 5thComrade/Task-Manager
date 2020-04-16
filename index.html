@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Task Manager</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="main" class="card">
+                    <div class="card-body">
+                        <h3 class="card-title display-3 mb-5">Task Manager</h3>
+                        <div class="row">
+                            <div class="col">
+                                <form id="task-form">
+                                    <div class="form-group" id="input-form">
+                                        <input type="text" class="task-input form-control" placeholder="New Task">
+                                    </div>
+                                    <input type="submit" value="Add Task" class="btn btn-primary my-4">
+                                </form>
+                            </div>
+                        </div>
+                        <hr class="my-4">
+                        <h5 id="task-title" class="display-4">Tasks</h5>
+                        <input type="text" id="filter" class="input-group rounded px-3 my-3" placeholder="Filter Tasks">
+                        <ul class="list-group my-5">
+                            <!-- <li class="list-group-item bg-light">
+                                <p>List Item<a href="#"><span class="close">&times;</span></a></p>
+                            </li> -->
+                        </ul>
+                        <a href="#" class="clear-button btn btn-dark btn-lg">Clear Tasks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
